@@ -1,10 +1,14 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+
 }
 ul li
 ,ol li {
     margin: 40px 20px;
     font-size: 18px;
+    list-style: none;
 }
 h1 {
     text-align: center;
@@ -14,6 +18,59 @@ h1 {
     padding: 20px;
     margin-bottom: 50px;
 }
+
+h2#title-food {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-recipe {
+    border: solid;
+    width: 1200px;
+    height: 300px;
+    position:relative;
+    margin-top: 20px;
+}
+
+.card-right-side {
+    width: 800px;
+    padding: 0px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.data-about-meal-title {
+    display: block;
+    width: 800px;
+}
+.data-about-meal-p p {
+    display: inline-block;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    background-color: orange;
+    padding: 10px 55px;
+}
+
+img#lacard-img {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+a#recipe-link {
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background-color: orange;
+ padding: 17px 80px;
+}
+
+.Recipe-ref {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 
 .menu-recipes a {
     display: block;
